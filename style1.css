@@ -1,0 +1,504 @@
+body,
+html {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 60%;
+    background-color: grey;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+
+.sign-in a {
+    margin-right: 25px;
+    background-color: indianred;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.sign-in a:hover {
+    background-color: #FF6347;
+    transform: scale(1.05);
+}
+
+.main-bg {
+    width: 100%;
+    height: 790px;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 72px;
+    color: #00FFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+
+.section {
+    padding: 60px 20px;
+    color: white;
+}
+
+#classes .class-bg {
+    width: 100%;
+    height: 700px;
+}
+
+.cat {
+    color: greenyellow;
+    font-size: 55px;
+    margin-top: -8px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    position: relative;
+}
+
+.item {
+    font-size: xx-large;
+    color: rgb(141, 203, 48);
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.items {
+    font-size: xx-large;
+    color: rgb(141, 203, 48);
+    text-transform: uppercase;
+    position: absolute;
+    top: -135px;
+    left: 330px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.box {
+    width: 290px;
+    height: 210px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+.boxs {
+    width: 290px;
+    height: 210px;
+    display: inline-block;
+    position: relative;
+    top: -80px;
+    left: 330px;
+}
+
+
+.side-img img {
+    width: 700px;
+    mix-blend-mode: lighten;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+    top: 125%;
+}
+
+.quote {
+    color: goldenrod;
+    font-size: x-large;
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+    top: 5px;
+}
+
+#trainers {
+    padding: 60px 20px;
+}
+
+#trainers h1 {
+    text-align: center;
+}
+
+.trainers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.trainer-box {
+    flex: 1 1 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 410px;
+    height: 285px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.trainer-box img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.para {
+    color: goldenrod;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 30px 0;
+}
+
+#pricing {
+    background-color: #000;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.packages {
+    color: greenyellow;
+    font-size: xx-large;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.boxes {
+    width: 450px;
+    height: 600px;
+    background-color: #333333;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.package {
+    padding: 20px;
+    color: white;
+}
+
+.package h2 {
+    font-size: xxx-large;
+    color: greenyellow;
+}
+
+.package h3 {
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 42px;
+    margin: 20px 0;
+}
+
+
+.package ul li {
+    margin: 15px 0;
+    font-size: larger;
+}
+
+.button {
+    width: 250px;
+    height: 50px;
+    border: 2px solid greenyellow;
+    color: white;
+    background-color: rgb(87, 133, 18);
+    font-size: x-large;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.button:hover {
+    background-color: greenyellow;
+    transform: scale(1.05);
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.bottom-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+#reviews {
+    padding: 60px 20px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review {
+    width: 300px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.review h3 {
+    color: greenyellow;
+}
+
+.review p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.replay {
+    font-size: 0.9em;
+}
+
+.review-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: relative;
+    top: -355px;
+    left: 180px;
+}
+
+.review-pic1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: relative;
+    top: -379px;
+    left: 197px;
+}
+
+
+.review-form {
+    margin-top: 40px;
+}
+
+.review-form h2 {
+    color: greenyellow;
+}
+
+.review-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-form input[type="text"],
+.review-form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.review-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+}
+
+.review-form input[type="submit"]:hover {
+    background-color: #e6e600;
+}
+
+.footer {
+    background-color: #333;
+    /* Dark background */
+    color: #fff;
+    /* White text */
+    padding: 20px;
+    /* Padding around content */
+    text-align: center;
+    /* Center-align content */
+}
+
+/* .bottom-logo img {
+    display: sticky;
+    width: 50px;
+    height: 50px;
+    float: right;
+  } */
+
+.footer-legal {
+    margin-top: 18px;
+}
+
+.footer-legal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-legal ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-legal ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+
+}
+
+.icons a {
+    width: 6px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background 0.3s, transform 0.8s;
+}
+
+/* .icons a:hover{
+    background: linear-gradient(135deg,#4a00e0,#8e2de2);
+    transform: scale(0.8);
+
+} */
+.hours {
+    color: greenyellow;
+    border: 2px solid black;
+    background-color: black;
+    padding: 18px;
+    padding: 45px;
+    border: 2px solid black;
+}
+
+.sign-in1 {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    position: relative;
+    left: 60px;
+}
+
+.sign-in1-link:hover {
+    color: #00FF00;
+    /* Light green color on hover */
+}
+
+.mainin {
+    color: goldenrod;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 30px 0;
+}
+
+.logos {
+
+position: fixed;
+ top: 600px; left: 1400px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: white;
+    z-index: 1000;
+}
